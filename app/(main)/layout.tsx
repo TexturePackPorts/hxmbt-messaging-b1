@@ -1,7 +1,5 @@
 import { NavigationSidebar } from "@/components/navigation/navigation-sidebar";
 
-export const runtime = 'edge'
-
 const MainLayout = async ({
     children
 }: {
