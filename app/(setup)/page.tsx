@@ -3,6 +3,8 @@ import { db } from "@/lib/db";
 import { initialProfile } from "@/lib/initial-profile";
 import { redirect } from "next/navigation";
 
+export const runtime = 'edge';
+
 const SetupPage = async () => {
     const profile = await initialProfile();
 
