@@ -5,5 +5,7 @@ const AuthLayout = ({ children }: { children: React.ReactNode }) => {
         </div>
      );
 }
+
+export const runtime = 'edge'
  
 export default AuthLayout;
