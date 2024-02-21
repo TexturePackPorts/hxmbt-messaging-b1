@@ -12,7 +12,7 @@
   "dependencies": {
     "@clerk/nextjs": "^4.29.3",
     "@hookform/resolvers": "^3.3.4",
-    "@prisma/client": "^5.8.1",
+    "@prisma/client": "^5.10.1",
     "@prisma/extension-accelerate": "^0.6.3",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
