@@ -5,6 +5,7 @@ generator client {
 datasource db {
   provider = "mysql"
   url = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
   relationMode = "prisma"
 }
 
@@ -27,7 +28,7 @@ model Server {
   id String @id @default(uuid())
   name String
   imageUrl String @db.Text
-  inviteCode String @db.Text
+  inviteCode String @unique
 
   profileId String
   profile Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
